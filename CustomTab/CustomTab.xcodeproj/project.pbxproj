@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92403B631C96E9B50063911A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92403B621C96E9B50063911A /* main.m */; };
+		92403B661C96E9B50063911A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92403B651C96E9B50063911A /* AppDelegate.m */; };
+		92403B6E1C96E9B50063911A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92403B6D1C96E9B50063911A /* Assets.xcassets */; };
+		92403B711C96E9B50063911A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92403B6F1C96E9B50063911A /* LaunchScreen.storyboard */; };
+		92403B7A1C96F64D0063911A /* CustomTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92403B791C96F64D0063911A /* CustomTabBarVC.m */; };
+		92403B861C96F68B0063911A /* tabbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B7C1C96F68A0063911A /* tabbar_background.png */; };
+		92403B871C96F68B0063911A /* tabbar_button_binders_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B7D1C96F68A0063911A /* tabbar_button_binders_normal.png */; };
+		92403B881C96F68B0063911A /* tabbar_button_binders_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B7E1C96F68A0063911A /* tabbar_button_binders_selected.png */; };
+		92403B891C96F68B0063911A /* tabbar_button_centeradd.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B7F1C96F68A0063911A /* tabbar_button_centeradd.png */; };
+		92403B8A1C96F68B0063911A /* tabbar_button_notes_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B801C96F68A0063911A /* tabbar_button_notes_normal.png */; };
+		92403B8B1C96F68B0063911A /* tabbar_button_notes_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B811C96F68B0063911A /* tabbar_button_notes_selected.png */; };
+		92403B8C1C96F68B0063911A /* tabbar_button_sessions_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B821C96F68B0063911A /* tabbar_button_sessions_normal.png */; };
+		92403B8D1C96F68B0063911A /* tabbar_button_sessions_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B831C96F68B0063911A /* tabbar_button_sessions_selected.png */; };
+		92403B8E1C96F68B0063911A /* tabbar_button_updates_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B841C96F68B0063911A /* tabbar_button_updates_normal.png */; };
+		92403B8F1C96F68B0063911A /* tabbar_button_updates_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 92403B851C96F68B0063911A /* tabbar_button_updates_selected.png */; };
+		DB150FFE1C98E6F000D387C8 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB150FFC1C98E6F000D387C8 /* AVOSCloud.framework */; };
+		DB150FFF1C98E6F000D387C8 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB150FFD1C98E6F000D387C8 /* AVOSCloudIM.framework */; };
+		DB1510021C98E76F00D387C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1510011C98E76F00D387C8 /* SystemConfiguration.framework */; };
+		DB1510041C98E77A00D387C8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1510031C98E77A00D387C8 /* MobileCoreServices.framework */; };
+		DB1510061C98E78600D387C8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1510051C98E78600D387C8 /* CoreTelephony.framework */; };
+		DB1510081C98E79400D387C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1510071C98E79400D387C8 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92403B5E1C96E9B50063911A /* CustomTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92403B621C96E9B50063911A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92403B641C96E9B50063911A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92403B651C96E9B50063911A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92403B6D1C96E9B50063911A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92403B701C96E9B50063911A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92403B721C96E9B50063911A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92403B781C96F64D0063911A /* CustomTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarVC.h; sourceTree = "<group>"; };
+		92403B791C96F64D0063911A /* CustomTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarVC.m; sourceTree = "<group>"; };
+		92403B7C1C96F68A0063911A /* tabbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_background.png; sourceTree = "<group>"; };
+		92403B7D1C96F68A0063911A /* tabbar_button_binders_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_binders_normal.png; sourceTree = "<group>"; };
+		92403B7E1C96F68A0063911A /* tabbar_button_binders_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_binders_selected.png; sourceTree = "<group>"; };
+		92403B7F1C96F68A0063911A /* tabbar_button_centeradd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_centeradd.png; sourceTree = "<group>"; };
+		92403B801C96F68A0063911A /* tabbar_button_notes_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_notes_normal.png; sourceTree = "<group>"; };
+		92403B811C96F68B0063911A /* tabbar_button_notes_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_notes_selected.png; sourceTree = "<group>"; };
+		92403B821C96F68B0063911A /* tabbar_button_sessions_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_sessions_normal.png; sourceTree = "<group>"; };
+		92403B831C96F68B0063911A /* tabbar_button_sessions_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_sessions_selected.png; sourceTree = "<group>"; };
+		92403B841C96F68B0063911A /* tabbar_button_updates_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_updates_normal.png; sourceTree = "<group>"; };
+		92403B851C96F68B0063911A /* tabbar_button_updates_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_button_updates_selected.png; sourceTree = "<group>"; };
+		DB150FFC1C98E6F000D387C8 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		DB150FFD1C98E6F000D387C8 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
+		DB1510011C98E76F00D387C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB1510031C98E77A00D387C8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DB1510051C98E78600D387C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DB1510071C98E79400D387C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92403B5B1C96E9B50063911A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1510081C98E79400D387C8 /* CoreLocation.framework in Frameworks */,
+				DB1510061C98E78600D387C8 /* CoreTelephony.framework in Frameworks */,
+				DB1510041C98E77A00D387C8 /* MobileCoreServices.framework in Frameworks */,
+				DB1510021C98E76F00D387C8 /* SystemConfiguration.framework in Frameworks */,
+				DB150FFE1C98E6F000D387C8 /* AVOSCloud.framework in Frameworks */,
+				DB150FFF1C98E6F000D387C8 /* AVOSCloudIM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92403B551C96E9B50063911A = {
+			isa = PBXGroup;
+			children = (
+				DB1510071C98E79400D387C8 /* CoreLocation.framework */,
+				DB1510051C98E78600D387C8 /* CoreTelephony.framework */,
+				DB1510031C98E77A00D387C8 /* MobileCoreServices.framework */,
+				DB1510011C98E76F00D387C8 /* SystemConfiguration.framework */,
+				DB150FFB1C98E6F000D387C8 /* Static */,
+				92403B601C96E9B50063911A /* CustomTab */,
+				92403B5F1C96E9B50063911A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92403B5F1C96E9B50063911A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92403B5E1C96E9B50063911A /* CustomTab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92403B601C96E9B50063911A /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				92403B7B1C96F68A0063911A /* imgs */,
+				92403B641C96E9B50063911A /* AppDelegate.h */,
+				92403B651C96E9B50063911A /* AppDelegate.m */,
+				92403B781C96F64D0063911A /* CustomTabBarVC.h */,
+				92403B791C96F64D0063911A /* CustomTabBarVC.m */,
+				92403B6D1C96E9B50063911A /* Assets.xcassets */,
+				92403B6F1C96E9B50063911A /* LaunchScreen.storyboard */,
+				92403B721C96E9B50063911A /* Info.plist */,
+				92403B611C96E9B50063911A /* Supporting Files */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		92403B611C96E9B50063911A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92403B621C96E9B50063911A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92403B7B1C96F68A0063911A /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				92403B7C1C96F68A0063911A /* tabbar_background.png */,
+				92403B7D1C96F68A0063911A /* tabbar_button_binders_normal.png */,
+				92403B7E1C96F68A0063911A /* tabbar_button_binders_selected.png */,
+				92403B7F1C96F68A0063911A /* tabbar_button_centeradd.png */,
+				92403B801C96F68A0063911A /* tabbar_button_notes_normal.png */,
+				92403B811C96F68B0063911A /* tabbar_button_notes_selected.png */,
+				92403B821C96F68B0063911A /* tabbar_button_sessions_normal.png */,
+				92403B831C96F68B0063911A /* tabbar_button_sessions_selected.png */,
+				92403B841C96F68B0063911A /* tabbar_button_updates_normal.png */,
+				92403B851C96F68B0063911A /* tabbar_button_updates_selected.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		DB150FFB1C98E6F000D387C8 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				DB150FFC1C98E6F000D387C8 /* AVOSCloud.framework */,
+				DB150FFD1C98E6F000D387C8 /* AVOSCloudIM.framework */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92403B5D1C96E9B50063911A /* CustomTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92403B751C96E9B50063911A /* Build configuration list for PBXNativeTarget "CustomTab" */;
+			buildPhases = (
+				92403B5A1C96E9B50063911A /* Sources */,
+				92403B5B1C96E9B50063911A /* Frameworks */,
+				92403B5C1C96E9B50063911A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTab;
+			productName = CustomTab;
+			productReference = 92403B5E1C96E9B50063911A /* CustomTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92403B561C96E9B50063911A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sea;
+				TargetAttributes = {
+					92403B5D1C96E9B50063911A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 92403B591C96E9B50063911A /* Build configuration list for PBXProject "CustomTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92403B551C96E9B50063911A;
+			productRefGroup = 92403B5F1C96E9B50063911A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92403B5D1C96E9B50063911A /* CustomTab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92403B5C1C96E9B50063911A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92403B871C96F68B0063911A /* tabbar_button_binders_normal.png in Resources */,
+				92403B8E1C96F68B0063911A /* tabbar_button_updates_normal.png in Resources */,
+				92403B881C96F68B0063911A /* tabbar_button_binders_selected.png in Resources */,
+				92403B711C96E9B50063911A /* LaunchScreen.storyboard in Resources */,
+				92403B861C96F68B0063911A /* tabbar_background.png in Resources */,
+				92403B8F1C96F68B0063911A /* tabbar_button_updates_selected.png in Resources */,
+				92403B8B1C96F68B0063911A /* tabbar_button_notes_selected.png in Resources */,
+				92403B891C96F68B0063911A /* tabbar_button_centeradd.png in Resources */,
+				92403B6E1C96E9B50063911A /* Assets.xcassets in Resources */,
+				92403B8A1C96F68B0063911A /* tabbar_button_notes_normal.png in Resources */,
+				92403B8C1C96F68B0063911A /* tabbar_button_sessions_normal.png in Resources */,
+				92403B8D1C96F68B0063911A /* tabbar_button_sessions_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92403B5A1C96E9B50063911A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92403B661C96E9B50063911A /* AppDelegate.m in Sources */,
+				92403B631C96E9B50063911A /* main.m in Sources */,
+				92403B7A1C96F64D0063911A /* CustomTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92403B6F1C96E9B50063911A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92403B701C96E9B50063911A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92403B731C96E9B50063911A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92403B741C96E9B50063911A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92403B761C96E9B50063911A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Static",
+				);
+				INFOPLIST_FILE = CustomTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lc++",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiyang.CustomTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92403B771C96E9B50063911A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Static",
+				);
+				INFOPLIST_FILE = CustomTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-licucore",
+					"-ObjC",
+					"-lc++",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haiyang.CustomTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92403B591C96E9B50063911A /* Build configuration list for PBXProject "CustomTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92403B731C96E9B50063911A /* Debug */,
+				92403B741C96E9B50063911A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92403B751C96E9B50063911A /* Build configuration list for PBXNativeTarget "CustomTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92403B761C96E9B50063911A /* Debug */,
+				92403B771C96E9B50063911A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92403B561C96E9B50063911A /* Project object */;
+}
